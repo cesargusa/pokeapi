@@ -1,0 +1,78 @@
+body{
+    background-color: #272727;
+}
+
+.inputSearch::before{
+    content: "*";
+}
+.inputSearch::placeholder{
+margin-left: 10px;
+color:white
+}
+
+.card-green{
+    background-color: #5DBE62;
+    height: 90px;
+    border-radius: 8px;
+    
+}
+
+.card-red{
+    background-color: #F7786B;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.card-blue{
+    background-color: #58AAF6;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.card-yellow{
+    background-color: #FFCE4B;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.card-violet{
+    background-color: #B863CF;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.progress {
+    height: 40%; /* Adjust height as needed */
+    background-color: #eee; /* Optional background for the bar container */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .progress-bar {
+    height: 100%; /* Fills the entire height of the progress container */
+    background-color: #077bff; /* Blue progress bar color */
+    width: 75%; /* Sets the width based on `aria-valuenow` (75%) */
+    transition: width 0.5s ease; /* Optional smooth animation for progress updates */
+  }
+
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #59B55D;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav-link{
+    color:white
+}
+
+.nav-pills .nav-link {
+    border-radius: 20px;
+}
